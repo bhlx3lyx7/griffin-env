@@ -28,6 +28,7 @@ mongod -f /etc/mongod.conf
 
 #mysql service
 service mysqld start
+sleep 30
 
 #hive metastore service
 hive --service metastore &
