@@ -21,7 +21,7 @@ $HADOOP_PREFIX/sbin/start-dfs.sh
 $HADOOP_PREFIX/sbin/start-yarn.sh
 
 #spark start
-$SPARK_HOME/sbin/start-all.sh
+#$SPARK_HOME/sbin/start-all.sh
 
 #start mongodb
 mongod -f /etc/mongod.conf
